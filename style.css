@@ -1,0 +1,36 @@
+body{
+    padding: 100px;
+}
+.login-form{
+    padding: 40px;
+    box-shadow: 5px 5px 8px grey;
+    
+}
+#transition-area{
+    display: none;
+}
+.steps{
+    border-radius: 10px;
+    margin: 0 20px;
+    padding: 20px;
+    color: white;
+    
+}
+.diposit{
+    background-color: coral;
+}
+.withdrow{
+    background-color: rgb(9, 109, 109);
+}
+.allamount{
+    background-color: rgb(131, 104, 54);
+}
+.transition-from{
+    border-radius: 10px;
+    margin: 0 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 8px grey;
+}
+#deposit-amount:active, #deposit-amount:focus{
+    outline-color: red;
+}
